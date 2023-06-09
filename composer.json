@@ -1,0 +1,20 @@
+{
+    "name": "jean-paul.andrei/synaxe",
+    "autoload": {
+        "psr-4": {
+            "JeanPaulAndrei\\Synaxe\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ANDREI, Jean-Paul",
+            "email": "jean-paul.andrei@cgi.com"
+        }
+    ],
+    "require": {
+        "lesstif/php-jira-rest-client": "^5.3",
+        "vlucas/phpdotenv": "^5.5",
+        "mashape/unirest-php": "^3.0",
+        "monolog/monolog": "^3.3"
+    }
+}
