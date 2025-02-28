@@ -18,11 +18,14 @@ $url = '';
 set_time_limit(500);
 //cérifie l'url rentré et récupére tous ce qui est entre "/"
 if (isset($_GET['url'])) {
+    var_dump($url);
     $url = explode('/', $_GET['url']);
+    
 }
 
+
 //défini les différentes actions à effectuer pour le routing
-switch ($url[0]) {
+switch ($url[1]) {
     case 'home':
         require('src/view/home.php');
         break;
